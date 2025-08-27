@@ -2471,6 +2471,12 @@
 			<skus export="ro.vendor.product.hardware.sku.variant">
 				<!-- ... same format as variants/products ... -->
 			</skus>
+			<!-- camera_feature parts describe the mapping of feature disabl_radio -->
+			<camera_feature export="ro.vendor.camera.back.disable_radio" default="true">
+				<variant name="false">
+					<string name="/proc/device-tree/chosen/mmi,back_camera_disable_radio">false</string>
+				</variant>
+			</camera_feature>
 		</mappings>
 	</device>
 
@@ -2793,7 +2799,7 @@
 		</mappings>
 	</device>
 
-	<device name="fogos" version="1.4">
+	<device name="fogos" version="2.0">
 
 		<!-- Features list variable hardware components for this device -->
 		<features>
@@ -2844,7 +2850,7 @@
 			<!-- look up value by matching "hwid" table, combination with current device,
 				then parsing out field indicated by "index",
 				and then translating the field as prescribed by "map" -->
-			<string name="radio/.auto">key=hwid;index=2;map=1:ALL,2:BR,3:LATAM,4:APEM,5:INDIA,6:PRC,7:INDIA</string>
+			<string name="radio/.auto">key=hwid;index=2;map=1:ALL,2:BR,3:LATAM,4:APEM,5:INDIA,6:PRC,7:INDIA,8:INDIA2,9:APEM2</string>
 			<string name="radio/.cmdline">androidboot.</string>
 			<string name="radio/.system">ro.vendor.hw.</string>
 			<string-array name="radio/.range">
@@ -2854,6 +2860,8 @@
 				<item>APEM</item>
 				<item>PRC</item>
 				<item>INDIA</item>
+				<item>INDIA2</item>
+				<item>APEM2</item>
 			</string-array>
 
 			<!-- use result of ram HW detection to fill the field -->
@@ -2896,6 +2904,12 @@
 				<item>hydro</item>
 				<item>pumpkin</item>
 				<item>tofu</item>
+				<item>brilliantblue</item>
+				<item>vivamagenta</item>
+				<item>bermuda</item>
+				<item>pinklavender</item>
+        			<item>dahilapurple</item>
+        			<item>moss</item>
 				<item>other</item>
 			</string-array>
 
@@ -2913,7 +2927,7 @@
 				<item>true</item>
 			</string-array>
 
-			<string name="nfc/.auto">key=hwid;index=2;map=1:samsung,2:samsung,3:samsung,4:samsung,5:false,6:false,7:false</string>
+			<string name="nfc/.auto">key=hwid;index=2;map=1:samsung,2:samsung,3:samsung,4:samsung,5:false,6:false,7:false,8:false,9:samsung</string>
 			<string name="nfc/.chosen">mmi,</string>
 			<string name="nfc/.system">ro.vendor.hw.</string>
 			<string-array name="nfc/.range">

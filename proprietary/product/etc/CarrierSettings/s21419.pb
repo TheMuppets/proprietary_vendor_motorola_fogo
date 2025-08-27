@@ -1,8 +1,8 @@
 
-s21419ð¤»¢–
-	simyo IMSimspx5
-internet simyoorangeworldBorangeJorangePE
-	simyo MMS	orangemmsPZhttp://mms.orange.esb172.22.188.25j8080"š#
+s21419Œ¿£§"Ú 
+allow_merging_rtt_calls_bool( 
+carrier_volte_available_bool( 
+ignore_rtt_mode_setting_bool(#
 moto_data_stall_check_count_int22
 moto_data_stall_config_stringrsrp=-108,sinr=-1
 moto_smart_5g_enabled_bool( 
@@ -28,5 +28,8 @@
 21418
 21420
 21421
-21438
+21438 
+rtt_downgrade_supported_bool(
+rtt_supported_bool(
+rtt_upgrade_supported_bool(
 smsUsesSimpleCharactersOnly(

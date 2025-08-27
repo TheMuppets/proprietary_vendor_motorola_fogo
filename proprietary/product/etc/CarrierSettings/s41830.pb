@@ -1,5 +1,5 @@
 
-s41830ð¤»¢ 
+s41830Œ¿£§ 
 ZainHURI - SNPTdefault"²
 maxImageHeight˜
 maxImageWidth 
