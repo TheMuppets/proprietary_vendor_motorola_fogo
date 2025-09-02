@@ -3241,6 +3241,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/fogo/proprietary/product/etc/permissions/privapp-permissions-com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.euicc.xml \
+    vendor/motorola/fogo/proprietary/recovery/root/vendor/firmware/ILITEK_FW:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ILITEK_FW \
+    vendor/motorola/fogo/proprietary/recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_606F.csv:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_606F.csv \
+    vendor/motorola/fogo/proprietary/recovery/root/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw.bin \
+    vendor/motorola/fogo/proprietary/recovery/root/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp.bin \
     vendor/motorola/fogo/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/fogo/proprietary/vendor/etc/SVIConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig.xml \
     vendor/motorola/fogo/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
