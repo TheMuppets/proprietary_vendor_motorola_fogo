@@ -4806,57 +4806,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmfec",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmfec.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libofflinelog",
-                "libsync",
-                "android.hardware.graphics.allocator@3.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.mapper@3.0",
-                "android.hardware.graphics.mapper@2.0",
-                "android.hardware.graphics.mapper@2.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libqdMetaData",
-                "vendor.qti.hardware.display.allocator@3.0",
-                "vendor.qti.hardware.display.mapper@2.0",
-                "vendor.qti.hardware.display.mapper@3.0",
-                "libcamera_metadata",
-                "libutils",
-                "libqti_vndfwk_detect",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmmcamera_bestats",
     owner: "motorola",
     strip: {
@@ -5805,34 +5754,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.fingerprint@1.0",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
 android_app_import {
     name: "EuiccPartnerApp",
     owner: "motorola",
@@ -5974,66 +5895,6 @@ cc_prebuilt_binary {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "fpc_ident",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/fpc_ident",
-            ],
-            shared_libs: [
-                "libQSEEComAPI",
-                "liblog",
-                "libion",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "goodix_ident",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/goodix_ident",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libgf_hal",
-                "libgf_ca",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-                "libbinder",
-                "libutils",
-                "libc++",
             ],
         },
     },
