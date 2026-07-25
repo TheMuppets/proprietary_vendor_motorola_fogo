@@ -1,5 +1,5 @@
 
-s24602åø£ß|
+s24602∏è£ß|
 Bite InternetwapP
 Bite MMSmmsBmms@mmsJmmsPZhttp://mmsc/servlets/mmsb192.168.150.2j8080
 IMSimsp"π 

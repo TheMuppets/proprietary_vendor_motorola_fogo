@@ -1,5 +1,5 @@
 
-s42514åø£ßKI
+s42514∏è£ßKI
 YouPhonedata.youphone.co.ilZ"http://192.168.220.15/servlets/mms"õ
 carrier_name_override_bool(
 carrier_name_stringYouPhone

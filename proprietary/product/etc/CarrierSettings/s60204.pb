@@ -1,5 +1,5 @@
 
-s60204Œ¿£§‹
+s60204¸£§‹
 IMSimspx#
 we internetinternet.te.egpx@
 MMS	mms.te.egZhttp://wemmsc.te.eg:8080bwemmsc.te.egj8080

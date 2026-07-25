@@ -1,5 +1,5 @@
 
-s24801imsi_3d_248010x2åø£ßKI
+s24801imsi_3d_248010x2∏è£ßKI
 Sendsend.eeZhttp://mms.emt.ee/servlets/mmsb217.71.32.82j8080"â 
 allow_merging_rtt_calls_bool((
 $carrier_default_wfc_ims_enabled_bool($

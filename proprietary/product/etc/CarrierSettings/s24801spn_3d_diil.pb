@@ -1,5 +1,5 @@
 
-s24801spn_3d_diilŒ¿£§«(
+s24801spn_3d_diil¸£§«(
 Diil Internetinternet.emt.eepxP
 Diil MMS
 mms.emt.eeZhttp://mms.emt.ee/servlets/mmsb217.71.32.82j8080px

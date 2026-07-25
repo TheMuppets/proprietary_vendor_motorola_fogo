@@ -1,5 +1,5 @@
 
-s24705åø£ß∂ 
+s24705∏è£ß∂ 
 Bite LV InternetinternetS
 Bite LV MMSmmsBmms@mmsJmmsPZhttp://mmsc/servlets/mmsb192.168.150.2j8080-
 Bite LV WAPwap2213.226.131.133:8080
