@@ -1,5 +1,5 @@
 
-s42501¸£§><
+s42501Œ¿£§><
 Partner	uinternetZ"http://192.168.220.15/servlets/mms"š
 carrier_name_override_bool(
 carrier_name_stringPartner
