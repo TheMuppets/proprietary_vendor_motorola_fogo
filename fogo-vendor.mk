@@ -3429,12 +3429,14 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.goodix.default \
+    libAncFaceDetect \
     libBST3DDNS \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
     libaidenoiser \
     libaidenoiserv2 \
+    libancbase_fd \
     libbitmlengine \
     libbitmlenginev2 \
     libcamera_nn_stub \
