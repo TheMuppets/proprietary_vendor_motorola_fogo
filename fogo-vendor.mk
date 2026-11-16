@@ -3310,6 +3310,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogo/proprietary/vendor/etc/sensors/config/strait_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_power_0.json \
     vendor/motorola/fogo/proprietary/vendor/etc/sensors/config/strait_qmc6308_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_qmc6308_0.json \
     vendor/motorola/fogo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/motorola/fogo/proprietary/vendor/etc/tetras/portrait_repair_composite.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite.model \
     vendor/motorola/fogo/proprietary/vendor/etc/thermal-engine-fogo-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogo-camera.conf \
     vendor/motorola/fogo/proprietary/vendor/etc/thermal-engine-fogo-game-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogo-game-normal.conf \
     vendor/motorola/fogo/proprietary/vendor/etc/thermal-engine-fogo-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogo-game-perf.conf \
@@ -3480,6 +3481,8 @@ PRODUCT_PACKAGES += \
     libqll10 \
     libqllengine \
     libremosaic_wrapper \
+    libremosaiclib \
+    librmsclib1 \
     libsn220u_fw \
     libswregistrationalgo \
     libtfestriping \
